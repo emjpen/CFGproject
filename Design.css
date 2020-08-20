@@ -1,0 +1,111 @@
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    color: midnightblue;
+    text-align: left;
+    font-size: 100px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 40px;
+    
+}
+
+
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 33.33%;
+    padding: 6px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex: 33.33%;
+    padding: 6px;
+    justify-content: center;
+}
+
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    flex: 33.33%;
+    padding: 6px;
+    justify-content: center;
+}
+
+
+
+.Greece {
+    flex: 33.33%;
+    align-self: center;
+    transition: transform .1s;
+}
+
+.Greece:hover {
+    transform: scale(1.1);
+}
+
+.Cuba {
+    flex: 33.33%;
+    align-self: center;
+    transition: transform .1s;
+}
+
+.Cuba:hover {
+    transform: scale(1.1);
+}
+
+.Bali {
+    flex: 33.33%;
+    align-self: centre;
+    justify-content: start;
+    transition: transform .1s;
+}
+
+.Bali:hover {
+    transform: scale(1.1);
+}
+
+.Egypt {
+    flex: 33.33%;
+    align-self: center;
+    transition: transform .1s;
+}
+
+.Egypt:hover {
+    transform: scale(1.1);
+}
+
+.Cambodia {
+    flex: 33.33%;
+    align-self: center;
+    transition: transform .1s;
+}
+
+.Cambodia:hover {
+    transform: scale(1.1);
+}
+
+.NewZealand {
+    flex: 33.33%;
+    align-self: center;
+    transition: transform .1s;    
+}
+
+.NewZealand:hover {
+    transform: scale(1.1);
+}
+
